@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<ClickOnRatesTab><![CDATA[//a[contains(text(),'Rates')]]]></ClickOnRatesTab>
+<AddRatePlanBtn><![CDATA[//button[contains(text(),'Add Rate Plan')]]]></AddRatePlanBtn>
+<RatePlanName><![CDATA[//div[@class='rate-plans row']/div[1]//input[@value='New Rate Plan']]]></RatePlanName>
+<SelectRoomType><![CDATA[//div[@class='rate-plans row']/div[1]//select[@name='room-type-id']]]></SelectRoomType>
+<SelectRoomCharge><![CDATA[//div[@class='rate-plans row']/div[1]//select[@name='charge-type-id']]]></SelectRoomCharge>
+<SelectUSD><![CDATA[//div[@class='rate-plans row']/div[1]//select[@name='currency-id']]]></SelectUSD>
+<OnlineBookingEngine><![CDATA[//div[@class='rate-plans row']/div[1]//select[@name='is-shown-in-online-booking-engine']]]></OnlineBookingEngine>
+<EnterDescription><![CDATA[//div[@class='rate-plans row']/div[1]//textarea[@name='description']]]></EnterDescription>
+<UpdateRatePlanBtn><![CDATA[//div[@class='rate-plans row']/div[1]//button[contains(text(),'Update Rate Plan')]]]></UpdateRatePlanBtn>
+<RatePlanConfirmation><![CDATA[//div[@class='rate-plans row']/div[1]//div[text()='Updated!']]]></RatePlanConfirmation>
+</Locators>

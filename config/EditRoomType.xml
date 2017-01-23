@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" verbose="1" name="Edit Room Type test"
+	annotations="JDK">
+	<test name="EditRoomType" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.inngrid.scripts.EditRoomType"/>			
+		</classes>		
+	</test>
+</suite> 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<Email><![CDATA[//*[@id='Email']]]></Email>
+<Password><![CDATA[//*[@id='password']]]></Password>
+<ClickLogin><![CDATA[//input[@value='Log In']]]></ClickLogin>
+<VerifyTitle><![CDATA[//*[@id='bookings-tab']]]></VerifyTitle>
+<HelpTab><![CDATA[ //ul[@class ='nav navbar-nav navbar-right']/li[1]/a]]></HelpTab>
+<VerifyHelpTab><![CDATA[ //div[@class='help']]]></VerifyHelpTab>
+</Locators>

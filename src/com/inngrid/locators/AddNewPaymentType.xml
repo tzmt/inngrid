@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<ClickOnAccountingTab><![CDATA[//a[contains(text(),'Accounting')]]]></ClickOnAccountingTab>
+<ClickOnPaymentType><![CDATA[//a[contains(text(),'Payment Types')]]]></ClickOnPaymentType>
+<ClickOnAddPaymentBtn><![CDATA[//button[contains(text(),'Add Payment Type')]]]></ClickOnAddPaymentBtn>
+<ClickToEdit><![CDATA[//div[contains(text(),'Click to edit')]]]></ClickToEdit>
+<typePayment><![CDATA[//table[@class='table']//input]]></typePayment>
+
+</Locators>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<ClickSetting><![CDATA[//*[@id='innGrid-settings']]]></ClickSetting>
+<ClickEmployees><![CDATA[//*[@id='Employees-tab']/a]]></ClickEmployees>
+<FirstName><![CDATA[//input[@name='employee_first_name']]]></FirstName>
+<LastName><![CDATA[//input[@name='employee_last_name']]]></LastName>
+<Email><![CDATA[//input[@name='employee_email']]]></Email>
+<AddEmployee><![CDATA[//*[@value='Add Employee']]]></AddEmployee>
+</Locators>

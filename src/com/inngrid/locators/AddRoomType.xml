@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<RoomTab><![CDATA[//a[contains(text(),'Rooms')]]]></RoomTab>
+<RoomTypes><![CDATA[//a[contains(text(),'Room Types')]]]></RoomTypes>
+<AddRoomTypeBtn><![CDATA[//button[text()='Add Room Type']]]></AddRoomTypeBtn>
+<RoomTypeName><![CDATA[//div[@class='room-types']/div[1]//input[@name='room-type-name']]]></RoomTypeName>
+<AcronymName><![CDATA[//div[@class='room-types']/div[1]//input[@name='room-type-acronym']]]></AcronymName>
+<ChooseAdults><![CDATA[//div[@class='room-types']/div[1]//select[@name='max-adults']]]></ChooseAdults>
+<ChooseChildren><![CDATA[//div[@class='room-types']/div[1]//select[@name='max-children']]]></ChooseChildren>
+<ShowOnWebSite><![CDATA[//div[@class='room-types']/div[1]//select[@name='can-be-sold-online']]]></ShowOnWebSite>
+<EnterDescription><![CDATA[//div[@class='room-types']/div[1]//textarea[@name='description']]]></EnterDescription>
+<UpdateRoomTypeBtn><![CDATA[//div[@class='room-types']/div[1]//button[contains(text(),'Update Room Type')]]]></UpdateRoomTypeBtn>
+<VerifyRoomType><![CDATA[//div[@class='room-types']/div[1]//div[@role='alert']]]></VerifyRoomType>
+
+</Locators>

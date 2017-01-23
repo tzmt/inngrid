@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<EditRoomType><![CDATA[//div[@class='room-types']/div[1]//input[@name='room-type-name']]]></EditRoomType>
+<UpdateAcronym><![CDATA[//div[@class='room-types']/div[1]//input[@name='room-type-acronym']]]></UpdateAcronym>
+<EditAdultCapacity><![CDATA[//div[@class='room-types']/div[1]//select[@name='max-adults']]]></EditAdultCapacity>
+<EditChildrenCapacity><![CDATA[//div[@class='room-types']/div[1]//select[@name='max-children']]]></EditChildrenCapacity>
+<UpdateDescription><![CDATA[//div[@class='room-types']/div[1]//textarea[@name='description']]]></UpdateDescription>
+<UpdateExtraButton><![CDATA[//div[@class='room-types']/div[1]//button[contains(text(),'Update Room Type')]]]></UpdateExtraButton>
+<UpdatedExtra><![CDATA[//div[@class='room-types']/div[1]//div[@role='alert']]]></UpdatedExtra>
+
+</Locators>

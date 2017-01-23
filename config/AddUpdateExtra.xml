@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" verbose="1" name="Add Update Extra test"
+	annotations="JDK">
+	<test name="AddUpdateExtra" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.inngrid.scripts.AddUpdateExtra"/>			
+		</classes>		
+	</test>
+</suite> 

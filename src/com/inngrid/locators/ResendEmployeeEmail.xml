@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<ResendEmpEmail><![CDATA[//table/tbody/tr[td[contains(text(),'"+Employeename+"')]]//div[text()='Re-send email']]]></ResendEmpEmail>
+
+</Locators>

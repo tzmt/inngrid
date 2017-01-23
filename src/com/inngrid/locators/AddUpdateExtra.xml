@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<UpdatedExtraname><![CDATA[//div[@id='extras']/div[1]//input[@name='extra-name']]]></UpdatedExtraname>
+<UpdatraExtraType><![CDATA[//div[@id='extras']/div[1]//select[@name='extra-type']]]></UpdatraExtraType>
+<UpdateChargingScheme><![CDATA[//div[@id='extras']/div[1]//select[@name='charging-scheme']]]></UpdateChargingScheme>
+<UpdateChargeType><![CDATA[//div[@id='extras']/div[1]//select[@name='extra-charge-type-id']]]></UpdateChargeType>
+<UpdateDefaultRate><![CDATA[//div[@id='extras']/div[1]/div[2]//input[@name='default-rate']]]></UpdateDefaultRate>
+<UpadteExtraBtn><![CDATA[//div[@id='extras']/div[1]/div[2]//button[contains(text(),'Update Extra')]]]></UpadteExtraBtn>
+<VerifyUpdatedExtra><![CDATA[//div[@id='extras']/div[1]/div[2]//div[text()='Updated!']]]></VerifyUpdatedExtra>
+
+
+</Locators>

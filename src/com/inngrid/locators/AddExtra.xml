@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<ClickOnRatesTab><![CDATA[//a[contains(text(),'Rates')]]]></ClickOnRatesTab>
+<Extras><![CDATA[//a[contains(text(),'Extras')]]]></Extras>
+<CreateNewExtraBtn><![CDATA[//button[contains(text(),'Create New Extra')]]]></CreateNewExtraBtn>
+<Extraname><![CDATA[//div[@id='extras']/div[1]//input[@name='extra-name']]]></Extraname>
+<selectExtraTypeDropdown><![CDATA[//div[@id='extras']/div[1]//select[@name='extra-type']]]></selectExtraTypeDropdown>
+<selectChargingschemeDropdown><![CDATA[//div[@id='extras']/div[1]//select[@name='charging-scheme']]]></selectChargingschemeDropdown>
+<selectChargeTypeDropdown><![CDATA[//div[@id='extras']/div[1]//select[@name='extra-charge-type-id']]]></selectChargeTypeDropdown>
+<DefaultRate><![CDATA[//div[@id='extras']/div[1]/div[2]//input[@name='default-rate']]]></DefaultRate>
+<UpdateBtn><![CDATA[//div[@id='extras']/div[1]/div[2]//button[contains(text(),'Update Extra')]]]></UpdateBtn>
+<ExtraConfirmation><![CDATA[//div[@id='extras']/div[1]/div[2]//div[text()='Updated!']]]></ExtraConfirmation>
+</Locators>

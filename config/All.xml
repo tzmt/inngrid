@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" verbose="1" name="Functional Automation"
+	annotations="JDK">
+	<suite-files>
+	     <suite-file path="Login.xml"></suite-file>
+	     <suite-file path="AddRoomType.xml"></suite-file>
+	     <suite-file path="EditRoomType.xml"></suite-file>
+	     <suite-file path="AddEmployee.xml"></suite-file>
+	     <suite-file path="AddExtra.xml"></suite-file>
+	     <suite-file path="AddRates.xml"></suite-file>
+	     <suite-file path="AddUpdateExtra.xml"></suite-file>
+	     <suite-file path="ResendEmployeeEmail.xml"></suite-file>
+	     <suite-file path="AddNewPaymentType.xml"></suite-file>
+      </suite-files>
+</suite>
