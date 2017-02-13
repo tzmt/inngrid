@@ -108,7 +108,7 @@ public abstract class DriverTestCase
 
 			driver = new ChromeDriver(options); } 
 		else 
-		{ driver = new FirefoxDriver(); }   
+		{ driver = new ChromeDriver(); }   
 
 		//Maximize window
 		driver.manage().window().maximize();
